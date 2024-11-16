@@ -1,0 +1,735 @@
+body {
+    font-family: sans-serif;
+    /* Shop */
+
+position: relative;
+width: 1280px;
+
+overflow-y: scroll;
+
+background: #FFFFFF;
+
+}
+header{
+  /* Rectangle 1 */
+
+position: absolute;
+width: 1280px;
+height: 649px;
+left: 0px;
+top: 0px;
+
+background: #757575;
+
+
+}
+.logo{
+    position:absolute;
+    border-radius: 50%;
+    left:60px;
+    top:90px;
+}
+h1{
+    /* Магазин brp */
+
+position: absolute;
+width: 384px;
+height: 75px;
+left: 463px;
+top: 213px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+h1:hover{
+    color:white;
+    transition:1s linear;
+    transform: scale(1.2);
+}
+.search{
+    /* пошук */
+
+position: absolute;
+width: 119.12px;
+height: 31.28px;
+left: 713px;
+top: 116.11px;
+text-decoration: none;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+transform: rotate(-0.05deg);
+
+}
+.search:hover{
+    color:white;
+}
+.news{
+    /* новини */
+
+position: absolute;
+width: 125px;
+height: 42px;
+left: 851px;
+top: 116.11px;
+text-decoration: none;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+
+}
+.news:hover{
+    color:white;
+}
+.action{
+    /* акція */
+
+position: absolute;
+width: 89px;
+height: 42px;
+left: 1012px;
+top: 116.11px;
+text-decoration: none;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+
+}
+.action:hover{
+    color:white;
+}
+.prices{/* ціни */
+
+position: absolute;
+width: 72px;
+height: 48px;
+left: 1144px;
+top: 116.11px;
+text-decoration: none;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+}
+.prices:hover{
+    color:white;
+}
+
+.us{
+    /* Про нас */
+
+position: absolute;
+width: 180px;
+height: 56px;
+left: 88px;
+top: 820px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+}
+.us:hover{
+    color:grey;
+    transition:1s linear;
+    transform: scale(1.2);
+}
+.info p{
+    /* BRP — це картка, яка посвідчує ваш імміграційний статус. Її можна використовувати, щоб підтвердити ваше право на навчання та отримання грошової допомоги, яка вам належить. */
+
+position: absolute;
+width: 566px;
+height: 62px;
+left: 58px;
+top: 916px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+
+}
+.img1{
+    /* images (4) */
+
+position: absolute;
+width: 550px;
+height: 400px;
+left: 692px;
+top: 780px;
+border-radius: 15px;
+background: url(images (4).jpg);
+
+}
+.tovar{
+    /* Каталог */
+
+position: absolute;
+width: 181px;
+height: 56px;
+left: 549px;
+top: 1357px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.tovar:hover{
+    color:grey;
+    transition:1s linear;
+    transform: scale(1.2);
+}
+.buggy-img{
+    /* images (5) */
+
+position: absolute;
+width: 325px;
+height: 250px;
+left: 100px;
+top: 1499px;
+
+background: url(images (5).jpg);
+
+}
+.buggy-img:hover{
+    transform: scale(1.2);
+    transition: 1s linear;
+}
+.buggy-h4{
+    /* багги */
+
+position: absolute;
+width: 81px;
+height: 38px;
+left: 149px;
+top: 1765px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.buggy-h4:hover{
+    transition: 1s linear;
+    color:grey;
+    transform: scale(1.2);
+}
+.text{
+    /* З автомобіля знімалися кузов, двері і крила, в якості несучої структури встановлювалася полегшена рама або скловолоконний кузов, або залишалася урізана версія штатного кузова. */
+
+position: absolute;
+width: 354px;
+height: 14px;
+left: 70px;
+top: 1836px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+.sallary{
+    /* ціна:37,500€ */
+
+position: absolute;
+width: 143px;
+height: 28px;
+left: 88px;
+top: 2025px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: black;
+background-color: grey;
+padding: 15px;
+border-radius: 15px;
+
+
+}
+.sallary:hover{
+    box-shadow: 3px 3px 5px 3px red;
+    transition: 1s linear;
+    color:white;
+}
+.ATV-img{
+    /* MY21-Can-Am-Outlander-MAX-XT-650-Boreal-Green-34view */
+
+position: absolute;
+width: 325px;
+height: 250px;
+left: 479px;
+top: 1499px;
+
+background: url(MY21-Can-Am-Outlander-MAX-XT-650-Boreal-Green-34view.png);
+
+}
+.ATV-img:hover{
+    transform: scale(1.2);
+    transition: 1s linear;
+}
+.ATV-h4{
+    /* квадроцикл */
+
+position: absolute;
+width: 182px;
+height: 38px;
+left: 559px;
+top: 1771px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.ATV-h4:hover{
+    transition: 1s linear;
+    color:grey;
+    transform: scale(1.2);
+}
+.sallary1{
+    /* ціна:21,400 € */
+
+position: absolute;
+width: 149px;
+height: 28px;
+left: 496px;
+top: 2035px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+background-color: grey;
+padding: 15px;
+border-radius: 15px;
+
+}
+.sallary1:hover{
+    box-shadow: 3px 3px 5px 3px red;
+    transition: 1s linear;
+    color:white;
+}
+.hydrocyclone-img{
+    /* copy_rxt-x-rs-audio-idf-300-millenium-yellow-68460936579254 */
+
+position: absolute;
+width: 425px;
+height: 250px;
+left: 839px;
+top: 1499px;
+
+background: url(copy_rxt-x-rs-audio-idf-300-millenium-yellow-68460936579254.png);
+
+}
+.hydrocyclone-img:hover{
+    transform: scale(1.2);
+    transition: 1s linear;
+}
+.hydrocyclone-h4{
+    /* гидроцикол */
+
+position: absolute;
+width: 179px;
+height: 38px;
+left: 859px;
+top: 1771px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.hydrocyclone-h4:hover{
+    transition: 1s linear;
+    color:grey;
+    transform: scale(1.2);
+}
+.text_1{
+    /* Квадроцикл — це категорія транспортних засобів Європейського Союзу для чотириколісних мікроавтомобілів, що дозволяє проектувати ці транспортні засоби відповідно до менш суворих вимог порівняно зі звичайними автомобілями. */
+
+position: absolute;
+width: 317px;
+height: 70px;
+left: 488px;
+top: 1836px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+.text_2{
+    /* Гідроцикл (водний мотоцикл) — швидкісний персональний водний транспортний засіб (плавзасіб) зі стаціонарним двигуном внутрішнього згоряння, який призначений для руху глісуванням по водній поверхні. */
+
+position: absolute;
+width: 364px;
+height: 185px;
+left: 867px;
+top: 1836px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+
+}
+.sallary2{
+    /* Ціна:12,650 € */
+
+position: absolute;
+width: 159px;
+height: 28px;
+left: 867px;
+top: 2025px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+background-color: grey;
+padding: 15px;
+border-radius: 15px;
+
+}
+.sallary2:hover{
+    box-shadow: 3px 3px 5px 3px red;
+    transition: 1s linear;
+    color:white;
+}
+.vidguk_1{
+    /* Відгуки */
+
+position: absolute;
+width: 168px;
+height: 56px;
+left: 542px;
+top: 2125px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.vidguk_1:hover{
+    color:grey;
+    transition:1s linear;
+    transform: scale(1.2);
+}
+.vidguk-img{
+    /* images (6) */
+
+position: absolute;
+width: 530px;
+height: 350px;
+left: 30px;
+top: 2245px;
+
+background: url(images (6).jpg);
+
+}
+.first_1 p{
+    /* Bombardier Recreational Products (BRP) – канадська корпорація, яка спеціалізується на розробці різних транспортних засобів для активного відпочинку. BRP – світовий лідер у розробці, виробництві і продажу квадроциклів та мотовсюдиходів Can-Am, гідроциклів Sea-Doo, снігоходів Ski-Doo та трициклів (родстерів) Spyder і Ryker. Компанія заснована в 1942 році Жозефом-Армандом Бомбардьє */
+
+position: absolute;
+width: 650px;
+height: 224px;
+left: 600px;
+top: 2296px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+
+}
+.cs{
+    /* Де нас знайти? */
+
+position: absolute;
+width: 344px;
+height: 56px;
+left: 433px;
+top: 2583px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.cs:hover{
+    color:grey;
+    transition:1s linear;
+    transform: scale(1.2);
+}
+iframe{
+    /* image */
+
+position: absolute;
+width: 670px;
+height: 500px;
+left: 270px;
+top: 2735px;
+
+background: url(image.png);
+
+}
+.adress{
+    /* Адреса */
+
+position: absolute;
+width: 125px;
+height: 42px;
+left: 577px;
+top: 3309px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+
+}
+.adress:hover{
+    color:grey;
+    transition:1s linear;
+    transform: scale(1.2);
+}
+.top{
+    /* місто Київ вул. Незалежності 34 */
+
+position: absolute;
+width: 362px;
+height: 84px;
+left: 459px;
+top: 3436px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.top1{
+    /* місто Харків вул. Сумська 60 */
+
+position: absolute;
+width: 371px;
+height: 84px;
+left: 459px;
+top: 3598px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.top2{
+    /* місто Львів вул. Богдана Хмельницького 14 */
+
+position: absolute;
+width: 540px;
+height: 84px;
+left: 409px;
+top: 3760px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+
+}
+footer{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 1280px;
+height: 254px;
+left: 0px;
+top: 3900px;
+
+background: #757575;
+
+}
+footer h4{
+  /* Номер телефону:380978457586 */
+position: absolute;
+width: 650px;
+height: 42px;
+left: 35px;
+top: 60px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+color: #ffffff;
+
+
+}
+footer h4:hover{
+    transform: scale(1.1);
+    transition: 1s linear;
+    
+}
+.f{
+    /* images (1) */
+position: absolute;
+width: 78px;
+height: 68px;
+left: 763px;
+top: 80px;
+
+}
+.i{
+    /* Instagram_logo_2022.svg */
+    position: absolute;
+width: 73px;
+height: 72px;
+left: 863px;
+top: 80px;
+
+}
+.t{
+    /* Instagram_logo_2022.svg */
+position: absolute;
+width: 73px;
+height: 72px;
+left: 963px;
+top: 80px;
+
+}
+.you{
+    /* Instagram_logo_2022.svg */
+position: absolute;
+width: 73px;
+height: 72px;
+left: 1063px;
+top: 80px;
+
+
+}
+
